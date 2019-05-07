@@ -1,0 +1,17 @@
+sudo pacman -S gedit
+**Gedit es un editor de texto plano**
+
+Para utilizar bashrc:
+Copiar el contenido como root con "su"
+y editamos texto
+
+gedit .bashrc
+
+copiamos texto de bashrc y bashrc-root en 
+.bashrc y .bashrc-root
+
+
+Para utilizar zshrc:
+sudo pacman -S zsh zsh-syntax-highlighting
+Copiar el contenido de zshrc como root a .zshcr
+sudo chsh -s /bin/zsh nombre_usuario
